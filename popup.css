@@ -47,7 +47,6 @@ body {
 .btn-div {
   display: flex;
   gap: 10px;
-  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -163,20 +162,17 @@ body {
   color: #666;
 }
 
-.deleteBtn {
+.action-btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-btn-div button {
   background: transparent;
   border: none;
   color: #e11d48;
-  font-size: 13px;
   cursor: pointer;
-  margin-top: 6px;
-  text-align: right;
-  display: block;
-  width: 10%;
-}
-
-.deleteBtn:hover {
-  text-decoration: underline;
 }
 
 .empty-state {

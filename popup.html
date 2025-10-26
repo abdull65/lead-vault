@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lead Vault</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup-container">
+    <div class="logo">
+      <a href="#" class="">
+        <img src="./icons/icon128.png" alt="lead vault logo" />
+      </a>
+    </div>
+
+    <label class="field-label" for="leadText">Manual Lead Entry</label>
+    <textarea id="leadText" class="input" placeholder="Enter URL or text to save..."></textarea>
+
+    <label class="field-label" for="notes">Notes/Tags (Optional)</label>
+    <input id="notes" type="text" class="input" placeholder="Add notes or tags" />
+
+    <div class="btn-div">
+        <button id="saveTab" class="btn-primary">Save Current Tab</button>
+        <button id="saveLead" class="btn-gradient">Save Lead</button>
+    </div>
+
+    <input type="text" id="searchLeads" class="input search" placeholder="Search saved leads..." />
+
+    <h2 class="section-title">Saved Leads</h2>
+    <div id="leadsList" class="lead-list"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

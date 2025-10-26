@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "LeadVault",
   "version": "1.0",
-  "description": "Capture, organize, and keep your leads safe. Save URLs, text, and notes directly from your browser.",
+  "description": "A lightweight browser extension that lets you save tabs, text, and notes instantly.",
   "permissions": ["tabs", "storage"],
   "host_permissions": ["<all_urls>"],
   "action": {
